@@ -1,15 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <title>Solid App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-
-    <script src="/src/index.tsx" type="module"></script>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn about temp mail, its uses, and benefits for keeping your inbox clean.">
+    <title>Temp Mail - What is it and How Does it Work?</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #4facfe, #00f2fe);
+            color: #333;
+        }
+        .container {
+            max-width: 900px;
+            margin: 50px auto;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+        }
+        header {
+            background: linear-gradient(to right, #ff9966, #ff5e62);
+            color: #fff;
+            text-align: center;
+            padding: 20px 10px;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+        }
+        .content {
+            padding: 30px 20px;
+        }
+        .content h2 {
+            color: #ff5e62;
+            margin-bottom: 15px;
+        }
+        .content p {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            margin-bottom: 20px;
+        }
+        .content ul {
+            list-style: square;
+            margin: 20px 0;
+            padding-left: 20px;
+        }
+        .content ul li {
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+        }
+        footer {
+            background: linear-gradient(to right, #4facfe, #00f2fe);
+            text-align: center;
+            padding: 15px 10px;
+            color: #fff;
+            font-size: 0.9rem;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            color: #ff5e62;
+            text-decoration: underline;
+        }
+        button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 1rem;
+            font-weight: bold;
+            background: #ff5e62;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+        button:hover {
+            background: #ff9966;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Welcome to Temp Mail</h1>
+        </header>
+        <div class="content">
+            <h2>What is Temp Mail?</h2>
+            <p>
+                Temp mail, also known as temporary email, provides you with disposable email addresses. Use these addresses to avoid spam, protect your privacy, and maintain a clean inbox.
+            </p>
+            <h2>Benefits of Temp Mail</h2>
+            <ul>
+                <li>Keep spam away from your personal inbox.</li>
+                <li>Maintain your privacy while signing up for services.</li>
+                <li>Use and discard temporary emails without worry.</li>
+            </ul>
+            <h2>How to Use Temp Mail?</h2>
+            <p>
+                Simply visit a <a href="https://tempmail.uno" target="_blank">temp mail</a>, generate an email, and use it for your needs. Once done, discard it!
+            </p>
+            <button onclick="window.open('https://tempmail.uno', '_blank')">Visit TempMail.uno</button>
+        </div>
+        <footer>
+            &copy; 2025 TempMail.uno - All Rights Reserved. <br>
+            Check out our services at <a href="https://tempmail.uno" target="_blank">TempMail.uno</a>.
+        </footer>
+    </div>
+</body>
 </html>
